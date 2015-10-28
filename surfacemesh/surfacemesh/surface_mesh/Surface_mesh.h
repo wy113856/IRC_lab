@@ -57,7 +57,8 @@ public: //------------------------------------------------------ topology types
         explicit Base_handle(int _idx=-1) : idx_(_idx) {}
 
         /// Get the underlying index of this handle
-        int idx() const { return idx_; }
+
+		int idx() const { return idx_; }
 
         /// reset handle to be invalid (index=-1)
         void reset() { idx_=-1; }

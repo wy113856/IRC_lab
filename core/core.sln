@@ -1,0 +1,80 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "starlib", "C:/Users/yanx0005/Documents/GitHub/starlab/core/starlib\starlib.vcxproj", "{6C22D3C1-6E89-3E21-9A36-5B39A23867E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "starlab", "C:/Users/yanx0005/Documents/GitHub/starlab/core/starlab\starlab.vcxproj", "{A8892ED1-598E-3155-A949-401A34ECDBE0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C22D3C1-6E89-3E21-9A36-5B39A23867E2} = {6C22D3C1-6E89-3E21-9A36-5B39A23867E2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "starterm", "C:/Users/yanx0005/Documents/GitHub/starlab/core/starterm\starterm.vcxproj", "{D012B4B7-837B-3A45-B78F-6C22A67FDE58}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C22D3C1-6E89-3E21-9A36-5B39A23867E2} = {6C22D3C1-6E89-3E21-9A36-5B39A23867E2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render_bbox", "C:/Users/yanx0005/Documents/GitHub/starlab/core/plugins/render_bbox\render_bbox.vcxproj", "{E5D6A164-ADEA-3260-9135-13FF1343EA23}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gui_filemenu", "C:/Users/yanx0005/Documents/GitHub/starlab/core/plugins/gui_filemenu\gui_filemenu.vcxproj", "{80844641-7E76-38CC-BD06-DB07E2E6C8A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gui_filter", "C:/Users/yanx0005/Documents/GitHub/starlab/core/plugins/gui_filter\gui_filter.vcxproj", "{73ABD52A-8EFB-3D44-A44E-13E811E70E62}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gui_mode", "C:/Users/yanx0005/Documents/GitHub/starlab/core/plugins/gui_mode\gui_mode.vcxproj", "{AD48E26B-6769-3B54-A7B6-E18E66DEE125}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gui_render", "C:/Users/yanx0005/Documents/GitHub/starlab/core/plugins/gui_render\gui_render.vcxproj", "{F8872813-9135-30F9-A021-00E5770EE1A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gui_windows", "C:/Users/yanx0005/Documents/GitHub/starlab/core/plugins/gui_windows\gui_windows.vcxproj", "{037FE3AA-F086-3271-B386-75CCCF415636}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gui_view", "C:/Users/yanx0005/Documents/GitHub/starlab/core/plugins/gui_view\gui_view.vcxproj", "{960B8BF4-57EB-3052-8F60-30622F339CF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C22D3C1-6E89-3E21-9A36-5B39A23867E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C22D3C1-6E89-3E21-9A36-5B39A23867E2}.Debug|Win32.Build.0 = Debug|Win32
+		{6C22D3C1-6E89-3E21-9A36-5B39A23867E2}.Release|Win32.ActiveCfg = Release|Win32
+		{6C22D3C1-6E89-3E21-9A36-5B39A23867E2}.Release|Win32.Build.0 = Release|Win32
+		{A8892ED1-598E-3155-A949-401A34ECDBE0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A8892ED1-598E-3155-A949-401A34ECDBE0}.Debug|Win32.Build.0 = Debug|Win32
+		{A8892ED1-598E-3155-A949-401A34ECDBE0}.Release|Win32.ActiveCfg = Release|Win32
+		{A8892ED1-598E-3155-A949-401A34ECDBE0}.Release|Win32.Build.0 = Release|Win32
+		{D012B4B7-837B-3A45-B78F-6C22A67FDE58}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D012B4B7-837B-3A45-B78F-6C22A67FDE58}.Debug|Win32.Build.0 = Debug|Win32
+		{D012B4B7-837B-3A45-B78F-6C22A67FDE58}.Release|Win32.ActiveCfg = Release|Win32
+		{D012B4B7-837B-3A45-B78F-6C22A67FDE58}.Release|Win32.Build.0 = Release|Win32
+		{E5D6A164-ADEA-3260-9135-13FF1343EA23}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E5D6A164-ADEA-3260-9135-13FF1343EA23}.Debug|Win32.Build.0 = Debug|Win32
+		{E5D6A164-ADEA-3260-9135-13FF1343EA23}.Release|Win32.ActiveCfg = Release|Win32
+		{E5D6A164-ADEA-3260-9135-13FF1343EA23}.Release|Win32.Build.0 = Release|Win32
+		{80844641-7E76-38CC-BD06-DB07E2E6C8A4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80844641-7E76-38CC-BD06-DB07E2E6C8A4}.Debug|Win32.Build.0 = Debug|Win32
+		{80844641-7E76-38CC-BD06-DB07E2E6C8A4}.Release|Win32.ActiveCfg = Release|Win32
+		{80844641-7E76-38CC-BD06-DB07E2E6C8A4}.Release|Win32.Build.0 = Release|Win32
+		{73ABD52A-8EFB-3D44-A44E-13E811E70E62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73ABD52A-8EFB-3D44-A44E-13E811E70E62}.Debug|Win32.Build.0 = Debug|Win32
+		{73ABD52A-8EFB-3D44-A44E-13E811E70E62}.Release|Win32.ActiveCfg = Release|Win32
+		{73ABD52A-8EFB-3D44-A44E-13E811E70E62}.Release|Win32.Build.0 = Release|Win32
+		{AD48E26B-6769-3B54-A7B6-E18E66DEE125}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD48E26B-6769-3B54-A7B6-E18E66DEE125}.Debug|Win32.Build.0 = Debug|Win32
+		{AD48E26B-6769-3B54-A7B6-E18E66DEE125}.Release|Win32.ActiveCfg = Release|Win32
+		{AD48E26B-6769-3B54-A7B6-E18E66DEE125}.Release|Win32.Build.0 = Release|Win32
+		{F8872813-9135-30F9-A021-00E5770EE1A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8872813-9135-30F9-A021-00E5770EE1A2}.Debug|Win32.Build.0 = Debug|Win32
+		{F8872813-9135-30F9-A021-00E5770EE1A2}.Release|Win32.ActiveCfg = Release|Win32
+		{F8872813-9135-30F9-A021-00E5770EE1A2}.Release|Win32.Build.0 = Release|Win32
+		{037FE3AA-F086-3271-B386-75CCCF415636}.Debug|Win32.ActiveCfg = Debug|Win32
+		{037FE3AA-F086-3271-B386-75CCCF415636}.Debug|Win32.Build.0 = Debug|Win32
+		{037FE3AA-F086-3271-B386-75CCCF415636}.Release|Win32.ActiveCfg = Release|Win32
+		{037FE3AA-F086-3271-B386-75CCCF415636}.Release|Win32.Build.0 = Release|Win32
+		{960B8BF4-57EB-3052-8F60-30622F339CF0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{960B8BF4-57EB-3052-8F60-30622F339CF0}.Debug|Win32.Build.0 = Debug|Win32
+		{960B8BF4-57EB-3052-8F60-30622F339CF0}.Release|Win32.ActiveCfg = Release|Win32
+		{960B8BF4-57EB-3052-8F60-30622F339CF0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
