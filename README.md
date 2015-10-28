@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #starlab
 
 A lightweight, modular, and cross-platform (Windows, OSX, Linux) 3D geometry processing environment.
@@ -54,3 +55,9 @@ bool keyPressEvent(QKeyEvent *);
 ```
 
 The `create` function is called once the mode is selected. The `decorate` functions allows you to make OpenGL calls on the current scene. The `keyPressEvent` and other Qt keyboard and mouse widget events can be overloaded to include your own desired behavior. 
+=======
+IRC_lab
+=======
+
+c++ codes created in IRC@SDU
+>>>>>>> 881df5b71fe49dbf870c0a9628af898d6a069852
